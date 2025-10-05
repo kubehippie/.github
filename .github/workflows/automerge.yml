@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
-name: Auto Merge
+name: automerge
 
 "on":
   workflow_dispatch:
@@ -14,7 +14,6 @@ permissions:
 
 jobs:
   dependabot:
-    name: Run on Ubuntu
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
 

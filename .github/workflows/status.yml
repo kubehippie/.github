@@ -1,6 +1,6 @@
 ---
 # yaml-language-server: $schema=https://www.schemastore.org/github-workflow.json
-name: Status Update
+name: status
 
 "on":
   workflow_dispatch:
@@ -9,7 +9,6 @@ name: Status Update
 
 jobs:
   status:
-    name: Run on Ubuntu
     runs-on: ubuntu-latest
 
     steps:
