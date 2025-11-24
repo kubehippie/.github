@@ -94,6 +94,12 @@
       "semanticCommitType": "deps",
       "semanticCommitScope": "patch",
       "automerge": true
+    },
+    {
+      "matchManagers": [
+        "kustomize"
+      ],
+      "pinDigests": false
     }
   ],
   "labels": [
