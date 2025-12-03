@@ -7,15 +7,26 @@ name: status
   schedule:
     - cron:  "30 5 * * *"
 
+permissions:
+  contents: read
+
 jobs:
   status:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Generate token
+        id: token
+        uses: actions/create-github-app-token@7e473efe3cb98aa54f8d4bac15400b15fad77d94 # v2
+        with:
+          app-id: ${{ secrets.TOKEN_EXCHANGE_APP }}
+          private-key: ${{ secrets.TOKEN_EXCHANGE_KEY }}
+          permission-contents: write
+
       - name: Checkout source
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
         with:
-          token: ${{ secrets.BOT_ACCESS_TOKEN }}
+          token: ${{ steps.token.outputs.token }}
 
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
