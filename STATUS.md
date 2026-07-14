@@ -1,5 +1,8 @@
 # Status
 
+## dummy
+[![release build](https://github.com/kubehippie/dummy/actions/workflows/release.yml/badge.svg)](https://github.com/kubehippie/dummy/actions/workflows/release.yml)
+
 ## external-dns-watcher
 [![docker build](https://github.com/kubehippie/external-dns-watcher/actions/workflows/docker.yml/badge.svg)](https://github.com/kubehippie/external-dns-watcher/actions/workflows/docker.yml) [![flake build](https://github.com/kubehippie/external-dns-watcher/actions/workflows/flake.yml/badge.svg)](https://github.com/kubehippie/external-dns-watcher/actions/workflows/flake.yml) [![general build](https://github.com/kubehippie/external-dns-watcher/actions/workflows/general.yml/badge.svg)](https://github.com/kubehippie/external-dns-watcher/actions/workflows/general.yml) [![helmdocs build](https://github.com/kubehippie/external-dns-watcher/actions/workflows/helmdocs.yml/badge.svg)](https://github.com/kubehippie/external-dns-watcher/actions/workflows/helmdocs.yml) [![release build](https://github.com/kubehippie/external-dns-watcher/actions/workflows/release.yml/badge.svg)](https://github.com/kubehippie/external-dns-watcher/actions/workflows/release.yml)
 
