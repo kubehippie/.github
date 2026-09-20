@@ -2,6 +2,7 @@
 
 [tools]
 1password = "latest"
+betterleaks = "1.8.1"
 node = "24"
 prek = "0.5.3"
 ruby = "4.0.6"
