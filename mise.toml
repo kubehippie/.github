@@ -6,7 +6,7 @@ betterleaks = "1.8.1"
 node = "24"
 prek = "0.5.3"
 ruby = "4.0.6"
-terraform = "1.16.3"
+terraform = "1.16.4"
 tflint = "0.64.0"
 
 [settings.ruby]
