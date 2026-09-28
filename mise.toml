@@ -4,7 +4,7 @@
 1password = "latest"
 betterleaks = "1.8.1"
 node = "24"
-prek = "0.5.3"
+prek = "0.5.4"
 ruby = "4.0.6"
 terraform = "1.16.4"
 tflint = "0.64.0"
