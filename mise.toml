@@ -5,7 +5,7 @@
 betterleaks = "1.10.1"
 node = "26"
 prek = "0.5.10"
-ruby = "4.0.6"
+ruby = "4.0.9"
 terraform = "1.17.2"
 tflint = "0.66.0"
 
